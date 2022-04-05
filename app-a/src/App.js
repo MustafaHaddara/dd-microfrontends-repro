@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="App" style={{ width: '100%', height: '200px', background: '#DDDDDD' }}>
+    <div className="App">
       App A
     </div>
   );

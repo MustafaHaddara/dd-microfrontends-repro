@@ -12,7 +12,7 @@ function App() {
     }, 50);
   }, [count]);
   return (
-    <div className="App" style={{ width: '100%', height: '200px', background: '#DDDDDD' }}>
+    <div className="App">
       {count < LOAD_TIME ? `Loading... ${count}` : 'App B'}
     </div>
   );
