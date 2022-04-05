@@ -1,7 +1,19 @@
+import { useEffect, useState } from 'react';
+
+const LOAD_TIME = 15000;
+
 function App() {
+  const [count, setCount] = useState(0);
+  useEffect(() => {
+    setTimeout(() => {
+      if (count < LOAD_TIME) {
+        setCount(count + 50);
+      }
+    }, 50);
+  }, [count]);
   return (
     <div className="App" style={{ width: '100%', height: '200px', background: '#DDDDDD' }}>
-      App B
+      {count < LOAD_TIME ? `Loading... ${count}` : 'App B'}
     </div>
   );
 }
