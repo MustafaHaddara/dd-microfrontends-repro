@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.7b7311b0.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.7b7311b0.js.map": "/static/js/main.7b7311b0.js.map"
+    "main.css": "https://mustafahaddara.github.io/dd-microfrontends-repro/builds/app-a/static/css/main.e6c13ad2.css",
+    "main.js": "https://mustafahaddara.github.io/dd-microfrontends-repro/builds/app-a/static/js/main.7b7311b0.js",
+    "index.html": "https://mustafahaddara.github.io/dd-microfrontends-repro/builds/app-a/index.html",
+    "main.e6c13ad2.css.map": "https://mustafahaddara.github.io/dd-microfrontends-repro/builds/app-a/static/css/main.e6c13ad2.css.map",
+    "main.7b7311b0.js.map": "https://mustafahaddara.github.io/dd-microfrontends-repro/builds/app-a/static/js/main.7b7311b0.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
